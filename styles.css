@@ -1,0 +1,132 @@
+body {
+    background: green;
+}
+.game-enter {
+    margin: 200px auto;
+    background: #ddd;
+    border-radius:10px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    border: solid 10px;
+}
+.game-enter input {
+    padding: 14px 20px;
+    font-size: 20px;
+}
+.game {
+    text-align: center;
+    display: none;
+}
+
+.game-title h1 {
+    padding-top: 30px;
+    margin: 0px;
+    color:yellow;
+    
+}
+
+.game-status {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+.game-status h3 {
+    float: left;
+    margin-top: 50px;
+    color:#fff;
+}
+
+.deck {
+    float: right;
+    width: 45px;
+    height: 60px;
+    background: white;
+    color:#222;
+    padding: 10px;
+    font-size: 20px;
+    border-radius:10px;
+    border: double 5px;
+}
+
+#deckcount {
+    margin-top: 15px;
+}
+
+.game-options {
+    padding-bottom: 0px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.btn {
+    border:none;
+    padding: 10px 50px;
+    border-radius:10px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor:pointer;
+}
+
+#btn-start {
+    background: #DB4437;
+    color: #fff;
+}
+
+.btn:hover {
+    background:dodgerblue;
+}
+
+.game .game-board {
+    height: 426px;
+    width: 500px;
+    margin: 0 auto;
+    background: #ddd;
+    border: solid 10px;
+    text-align:center;
+}
+
+.game .score {
+    font-size: 20pt;
+    margin: 0px;
+}
+
+.game .card {
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.divisor {
+    height: 100px;
+}
+.game-result {
+    font-size: 30px;
+    padding: 10px;
+    margin: 22px 0 auto;
+    display:inline-block;
+}
+
+.players {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.player {
+    height: 112px;
+    padding: 10px;
+    text-align: left;
+}
+
+.game-intro {
+    color: white;
+}
