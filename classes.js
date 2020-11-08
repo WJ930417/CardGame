@@ -1,3 +1,10 @@
+/*
+ * This script contains three classes for the game,
+ * Deck, Card and Dealer.
+ * 
+ * @Author Jing
+ * /
+
 /* This class is for creating object represeting a card deck */
 class Deck {
 
@@ -73,8 +80,8 @@ class Dealer {
         this.deckCount = 52;
     }
 
+    // Hands a card at top of the deck to specific player.
     dealHand(player) {
-        // handing cards to player and computer
         var card;
         card = this.deck.deck.pop();
         card.renderCard(player);

@@ -1,6 +1,7 @@
 body {
     background: green;
 }
+
 .game-enter {
     margin: 200px auto;
     background: #ddd;
@@ -14,6 +15,7 @@ body {
     padding: 14px 20px;
     font-size: 20px;
 }
+
 .game {
     text-align: center;
     display: none;
